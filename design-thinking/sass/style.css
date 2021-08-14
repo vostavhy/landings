@@ -453,7 +453,7 @@ template {
   transition: all 0.3s ease-out;
 }
 
-.button, body {
+.tool__title, .button, body {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
@@ -541,13 +541,71 @@ h5 {
   line-height: 24px;
   color: #FF9900;
   text-decoration-line: underline;
+  display: inline-flex;
+  align-items: center;
 }
 .link-button:hover {
   color: #FF7549;
 }
 
+.link-button__text {
+  margin-left: 9px;
+}
+
 .ico {
   cursor: pointer;
+  display: inline-block;
+}
+
+.ico_play {
+  background-image: url("../img/icons/play.svg");
+  width: 18px;
+  height: 19px;
+}
+
+.ico_arrow {
+  background-image: url("../img/icons/arrow.svg");
+  width: 12px;
+  height: 17px;
+}
+
+.ico_heart {
+  background-image: url("../img/icons/heart.svg");
+  width: 17px;
+  height: 15px;
+}
+
+.ico_snake {
+  background-image: url("../img/icons/snake.svg");
+  width: 18px;
+  height: 14px;
+}
+
+.ico_watch {
+  background-image: url("../img/icons/watch.svg");
+  width: 15px;
+  height: 17px;
+}
+
+.icon-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+}
+.icon-square_lilium {
+  background: #7752BE;
+}
+.icon-square_yellow {
+  background: #FAB005;
+}
+.icon-square_red {
+  background: #F03E3D;
+}
+.icon-square_blue {
+  background: #4DADF7;
 }
 
 .wrapper {
@@ -573,6 +631,33 @@ h5 {
 
 .header__buttons > .button:first-child {
   margin-left: 0;
+}
+
+.layout-4-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-4-column > * {
+  flex-basis: 21%;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 45%;
 }
 
 .contact-us {
@@ -623,6 +708,30 @@ h5 {
 }
 .navigation__link:hover {
   color: #FF9900;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool__title {
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+  margin: 0 0 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

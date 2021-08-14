@@ -1,4 +1,49 @@
 .ico {
     cursor: pointer;
+    display: inline-block;
 }
+
+.ico_play {
+    @include icons($url: "../img/icons/play.svg", $width: 18px, $height: 19px);
+}
+
+.ico_arrow {
+    @include icons($url: "../img/icons/arrow.svg", $width: 12px, $height: 17px);
+}
+
+.ico_heart{
+    @include icons($url: "../img/icons/heart.svg", $width: 17px, $height: 15px);
+}
+
+.ico_snake {
+    @include icons($url: "../img/icons/snake.svg", $width: 18px, $height: 14px);
+}
+
+.ico_watch {
+    @include icons($url: "../img/icons/watch.svg", $width: 15px, $height: 17px);
+}
+
+
+.icon-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    &_lilium {
+        background: $color-violet;
+    }
+    &_yellow {
+        background: $color-yellow;
+    }
+    &_red {
+        background: $color-red;
+    }
+    &_blue {
+        background: $color-blue;
+    }
+}
+
+
 

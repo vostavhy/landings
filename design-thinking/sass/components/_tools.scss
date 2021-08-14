@@ -1,0 +1,22 @@
+.tools__title {
+    max-width: 462px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.tools__button {
+    margin-top: 60px;
+    text-align: center;
+}
+
+// Tool Block
+.tool__icon {
+    margin-bottom: 30px;
+}
+
+.tool__title {
+    @extend %font-prime;
+    @include font($size: 2.2rem, $height: 3.0rem, $weight: 600);
+    margin: 0 0 16px;
+}

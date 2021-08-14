@@ -33,7 +33,13 @@
     @extend %transition;
     color: $color-primary;
     text-decoration-line: underline;
+    display: inline-flex;
+    align-items: center;
     &:hover {
         color: $color-additional;
     }
+}
+
+.link-button__text {
+    margin-left: 9px;
 }
