@@ -1,32 +1,39 @@
 .button {
+    @extend %font-prime;
     padding: 11px 25px 13px;
-    font-family: 'Open Sans', Verdana, sans-serif;
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 2.2rem;
     border-radius: 4px;
-    cursor: pointer;
-    transition: all .3s;
+    cursor: pointer;    
+    @extend %transition;
+    &_bordered {
+        background: $color-light;    
+        color: $color-text-button;
+        border: 1px solid $color-button-light;
+        &:hover {
+            background: $color-button-light;
+            border-color: $color-button-light;
+        }
     }
-
-.button_bordered {
-    background: $color-light;    
-    color: $color-text-button;
-    border: 1px solid $color-button-light;
+    &_colored {
+        background: $color-primary;
+        color: $color-light;
+        border: 1px solid $color-primary;
+        &:hover {
+            background: $color-additional;
+            border-color: $color-additional;
+        }
+    }
 }
 
-.button_colored {
-    background: $color-primary;
-    color: $color-light;
-    border: 1px solid $color-primary;
-}
-
-.button_bordered:hover {
-    background: $color-button-light;
-    border-color: $color-button-light;
-}
-
-.button_colored:hover {
-    background: $color-additional;
-    border-color: $color-additional;
+.link-button {    
+    @include font($size: 16px, $height: 24px, $weight: 600);
+    @extend %font-additional;
+    @extend %transition;
+    color: $color-primary;
+    text-decoration-line: underline;
+    &:hover {
+        color: $color-additional;
+    }
 }
