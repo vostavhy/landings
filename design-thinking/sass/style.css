@@ -552,6 +552,14 @@ h5 {
   margin-left: 9px;
 }
 
+.logo {
+  display: inline-block;
+  width: 191px;
+  height: 32px;
+  background-image: url("../img/header/logo.jpg");
+  background-repeat: no-repeat;
+}
+
 .ico {
   cursor: pointer;
   display: inline-block;

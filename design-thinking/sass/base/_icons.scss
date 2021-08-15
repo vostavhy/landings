@@ -4,23 +4,23 @@
 }
 
 .ico_play {
-    @include icons($url: "../img/icons/play.svg", $width: 18px, $height: 19px);
+    @include icon($url: "../img/icons/play.svg", $width: 18px, $height: 19px);
 }
 
 .ico_arrow {
-    @include icons($url: "../img/icons/arrow.svg", $width: 12px, $height: 17px);
+    @include icon($url: "../img/icons/arrow.svg", $width: 12px, $height: 17px);
 }
 
 .ico_heart{
-    @include icons($url: "../img/icons/heart.svg", $width: 17px, $height: 15px);
+    @include icon($url: "../img/icons/heart.svg", $width: 17px, $height: 15px);
 }
 
 .ico_snake {
-    @include icons($url: "../img/icons/snake.svg", $width: 18px, $height: 14px);
+    @include icon($url: "../img/icons/snake.svg", $width: 18px, $height: 14px);
 }
 
 .ico_watch {
-    @include icons($url: "../img/icons/watch.svg", $width: 15px, $height: 17px);
+    @include icon($url: "../img/icons/watch.svg", $width: 15px, $height: 17px);
 }
 
 

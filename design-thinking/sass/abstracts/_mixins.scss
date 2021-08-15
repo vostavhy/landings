@@ -14,7 +14,7 @@
     }    
 }
 
-@mixin icons($url, $width, $height) {
+@mixin icon($url, $width, $height) {
     background-image: url($url);
     width: $width;
     height: $height;
