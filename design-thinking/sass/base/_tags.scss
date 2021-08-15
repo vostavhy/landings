@@ -20,5 +20,6 @@
     }
     &_colored {
         background: $color-tag;
+        border: 1px solid $color-tag;
     }
 }
