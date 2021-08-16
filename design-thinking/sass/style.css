@@ -449,7 +449,7 @@ template {
   display: none;
 }
 
-.navigation__link, .link-button, .button {
+.navigation__link, .footer-navigation__links a, .link-button, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -457,7 +457,7 @@ template {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.promo__paragraph, .link-button, h1 {
+.promo__paragraph, .footer-navigation__links a, .link-button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -697,7 +697,7 @@ h5 {
 .header {
   background: #FFFFFF;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  padding: 15px 0 17px 0;
+  padding: 15px 0 17px;
 }
 
 .header__wrapper {
@@ -739,6 +739,41 @@ h5 {
 }
 .layout-2-column > * {
   flex-basis: 48%;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 0 58px;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  padding-left: 151px;
+}
+
+.footer-navigation__title {
+  margin: 0 0 15px;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3rem;
+}
+
+.footer-navigation__links {
+  list-style: none;
+  padding: 0;
+}
+.footer-navigation__links a {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3.5rem;
+  text-decoration: none;
+  color: #544837;
+}
+.footer-navigation__links a:hover {
+  color: #FF9900;
 }
 
 .contact-us {
@@ -832,6 +867,8 @@ h5 {
 .navigation {
   display: flex;
   font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
   line-height: 2.8rem;
 }
 
