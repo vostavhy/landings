@@ -478,6 +478,10 @@ body {
   line-height: 2.6rem;
 }
 
+h1, h2, h3, h4, h5 {
+  color: #2F281E;
+}
+
 h1 {
   font-size: 4.4rem;
   font-style: normal;
@@ -942,6 +946,58 @@ h5 {
 
 .strategy__content {
   padding: 24px 34px 26px;
+}
+
+.about-us__wrapper {
+  padding: 36px 0 101px;
+}
+
+.about-us__title {
+  margin: 0 0 14px;
+}
+
+.about-us__text {
+  margin: 0 0 45px;
+}
+
+.employees-block {
+  padding-right: 32px;
+}
+
+.employee {
+  display: flex;
+  position: relative;
+  padding: 35px;
+  width: calc(30% - $image-gap);
+}
+
+.employee__name {
+  margin: 0;
+}
+
+.employee__title {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+}
+
+.employee__email {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+  text-decoration: none;
+}
+
+.employee__photo {
+  width: 98px;
+  height: 98px;
+  position: absolute;
+  top: 20px;
+  right: -32px;
+  border-radius: 100%;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 /*# sourceMappingURL=style.css.map */
