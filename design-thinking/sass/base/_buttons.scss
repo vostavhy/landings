@@ -25,21 +25,48 @@
             border-color: $color-additional;
         }
     }
+    &_wide {
+        min-width: 117px;
+    }
 }
 
 .link-button {    
+    display: inline-flex;
+    align-items: center;
     @include font($size: 16px, $height: 24px, $weight: 600);
     @extend %font-additional;
     @extend %transition;
     color: $color-primary;
     text-decoration-line: underline;
-    display: inline-flex;
-    align-items: center;
     &:hover {
         color: $color-additional;
     }
+    &_info {
+        @include font($size: 2.5rem, $height: 2.6rem, $weight: normal);
+        font-family: 'Open Sans', Verdana, sans-serif;
+        color: $color-text;
+        text-decoration: none;
+    } 
 }
 
 .link-button__text {
     margin-left: 9px;
 }
+
+.link-button__text_wide {
+    margin-left: 11px;
+}
+
+.form-button {
+    min-width: 117px;
+}
+
+
+
+
+
+
+//<a href="#" class="link-button">
+//                            <span class="ico ico_play"></span>
+//                            <span class="link-button__text">Watch the Video</span> 
+//                        </a>

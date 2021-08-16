@@ -34,9 +34,6 @@
 }
 
 .contact-us__button {
-    >* {
-        min-width: 117px;
-    }
     margin: -4px 0 0;
 }
 
@@ -53,12 +50,6 @@
     margin: 0 0 33px;
 }
 
-.contact-us__link {
-    a {
-        display: inline-flex;
-        @include font($size: 2.5rem, $height: 2.6rem, $weight: normal);
-        color: $color-text;
-        text-decoration: none;
-    }
-    
+.contact-us__first-link {
+    margin: 0 0 19px;
 }

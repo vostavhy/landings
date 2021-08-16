@@ -217,12 +217,24 @@
                 <div class="layout-2-column">
                     <div class="contact-us__content">
                         <p class="contact-us__text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
-                        <p class="contact-us__link">
-                            <span class="ico ico_phone"></span><a href="tel:+375291111111">+375 (22) 345-00-99</a>
+                        <p class="contact-us__first-link">                            
+                            <a href="tel:+375291111111" class="link-button link-button_info">
+                                <span class="icon-square icon-square_light icon-square_little">
+                                    <span class="ico ico_phone"></span>                                 
+                                </span>                                
+                                <span class="link-button__text_wide">+375 (22) 345-00-99</span>
+                            </a>
                         </p>
-                        <p class="contact-us__link">
-                            <span class="ico ico_letter"></span><a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+
+                        <p>                            
+                            <a href="mailto:emailname@gmail.com" class="link-button link-button_info">
+                                <span class="icon-square icon-square_light icon-square_little">
+                                    <span class="ico ico_letter"></span>                                 
+                                </span>                                
+                                <span class="link-button__text_wide">emailname@gmail.com</span>
+                            </a>
                         </p>
+
                     </div>
                     <div class="contact-us__form">
                         <form action="/send_form" method="POST">
@@ -232,7 +244,7 @@
                             </div>
                             <textarea name="question" class="contact-us__line" placeholder="What do you want to ask?"></textarea>
                             <div class="contact-us__button contact-us__line">
-                                <button type="submit" class="button button_colored">Send</button>
+                                <button type="submit" class="button button_colored button_wide">Send</button>
                             </div>
                         </form>
                     </div>

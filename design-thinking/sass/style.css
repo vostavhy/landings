@@ -544,23 +544,43 @@ h5 {
   background: #FF7549;
   border-color: #FF7549;
 }
+.button_wide {
+  min-width: 117px;
+}
 
 .link-button {
+  display: inline-flex;
+  align-items: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
   color: #FF9900;
   text-decoration-line: underline;
-  display: inline-flex;
-  align-items: center;
 }
 .link-button:hover {
   color: #FF7549;
 }
+.link-button_info {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+  font-family: "Open Sans", Verdana, sans-serif;
+  color: #544837;
+  text-decoration: none;
+}
 
 .link-button__text {
   margin-left: 9px;
+}
+
+.link-button__text_wide {
+  margin-left: 11px;
+}
+
+.form-button {
+  min-width: 117px;
 }
 
 .logo {
@@ -575,35 +595,40 @@ h5 {
   cursor: pointer;
   display: inline-block;
 }
-
 .ico_play {
   background-image: url("../img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
-
 .ico_arrow {
   background-image: url("../img/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
-
 .ico_heart {
   background-image: url("../img/icons/heart.svg");
   width: 17px;
   height: 15px;
 }
-
 .ico_snake {
   background-image: url("../img/icons/snake.svg");
   width: 18px;
   height: 14px;
 }
-
 .ico_watch {
   background-image: url("../img/icons/watch.svg");
   width: 15px;
   height: 17px;
+}
+.ico_phone {
+  background-image: url("../img/icons/phone.svg");
+  width: 13px;
+  height: 13px;
+}
+.ico_letter {
+  background-image: url("../img/icons/email.svg");
+  width: 11px;
+  height: 8px;
 }
 
 .icon-square {
@@ -626,6 +651,14 @@ h5 {
 }
 .icon-square_blue {
   background: #4DADF7;
+}
+.icon-square_light {
+  background: #FFFFFF;
+}
+.icon-square_little {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
 }
 
 .tags {
@@ -744,9 +777,6 @@ h5 {
 .contact-us__button {
   margin: -4px 0 0;
 }
-.contact-us__button > * {
-  min-width: 117px;
-}
 
 .contact-us__content {
   padding-right: 50px;
@@ -764,14 +794,8 @@ h5 {
   margin: 0 0 33px;
 }
 
-.contact-us__link a {
-  display: inline-flex;
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 2.6rem;
-  color: #544837;
-  text-decoration: none;
+.contact-us__first-link {
+  margin: 0 0 19px;
 }
 
 .promo {

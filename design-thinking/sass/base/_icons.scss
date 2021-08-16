@@ -1,26 +1,31 @@
 .ico {
     cursor: pointer;
     display: inline-block;
-}
+    &_play {
+        @include icon($url: "../img/icons/play.svg", $width: 18px, $height: 19px);
+    }
 
-.ico_play {
-    @include icon($url: "../img/icons/play.svg", $width: 18px, $height: 19px);
-}
+    &_arrow {
+        @include icon($url: "../img/icons/arrow.svg", $width: 12px, $height: 17px);
+    }
 
-.ico_arrow {
-    @include icon($url: "../img/icons/arrow.svg", $width: 12px, $height: 17px);
-}
+    &_heart{
+        @include icon($url: "../img/icons/heart.svg", $width: 17px, $height: 15px);
+    }
 
-.ico_heart{
-    @include icon($url: "../img/icons/heart.svg", $width: 17px, $height: 15px);
-}
+    &_snake {
+        @include icon($url: "../img/icons/snake.svg", $width: 18px, $height: 14px);
+    }
 
-.ico_snake {
-    @include icon($url: "../img/icons/snake.svg", $width: 18px, $height: 14px);
-}
-
-.ico_watch {
-    @include icon($url: "../img/icons/watch.svg", $width: 15px, $height: 17px);
+    &_watch {
+        @include icon($url: "../img/icons/watch.svg", $width: 15px, $height: 17px);
+    }
+    &_phone {
+        @include icon($url: "../img/icons/phone.svg", $width: 13px, $height: 13px);
+    }
+    &_letter {
+        @include icon($url: "../img/icons/email.svg", $width: 11px, $height: 8px);
+    }
 }
 
 
@@ -43,6 +48,14 @@
     }
     &_blue {
         background: $color-blue;
+    }
+    &_light {
+        background: $color-light;
+    }
+    &_little {
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
     }
 }
 
