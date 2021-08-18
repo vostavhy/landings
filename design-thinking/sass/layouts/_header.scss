@@ -20,6 +20,10 @@
             margin-left: 0;
         }
     }
+
+    @include media-mobile {
+        display: none;
+    }
 }
 
 .header__logo-line {

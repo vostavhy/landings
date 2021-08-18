@@ -2,6 +2,10 @@
     display: inline-block;
     width: 191px;
     height: 32px;
-    background-image: url("../img/header/logo.jpg");
+    background-image: url("../img/header/logo.jpg");    
     background-repeat: no-repeat;
+    
+    @include media-mobile {
+        background-size: 160px auto;    
+    }
 }
