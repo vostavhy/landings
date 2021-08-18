@@ -15,6 +15,7 @@
     height: 25px;
     @include media-tablet {
         display: inline-block;
+        margin-right: 37px;
     }
     &:before {
         @extend %hamburger__line;
