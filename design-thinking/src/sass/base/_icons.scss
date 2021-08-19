@@ -2,29 +2,29 @@
     cursor: pointer;
     display: inline-block;
     &_play {
-        @include icon($url: "../img/icons/play.svg", $width: 18px, $height: 19px);
+        @include icon($url: "../../img/icons/play.svg", $width: 18px, $height: 19px);
     }
 
     &_arrow {
-        @include icon($url: "../img/icons/arrow.svg", $width: 12px, $height: 17px);
+        @include icon($url: "../../img/icons/arrow.svg", $width: 12px, $height: 17px);
     }
 
     &_heart{
-        @include icon($url: "../img/icons/heart.svg", $width: 17px, $height: 15px);
+        @include icon($url: "../../img/icons/heart.svg", $width: 17px, $height: 15px);
     }
 
     &_snake {
-        @include icon($url: "../img/icons/snake.svg", $width: 18px, $height: 14px);
+        @include icon($url: "../../img/icons/snake.svg", $width: 18px, $height: 14px);
     }
 
     &_watch {
-        @include icon($url: "../img/icons/watch.svg", $width: 15px, $height: 17px);
+        @include icon($url: "../../img/icons/watch.svg", $width: 15px, $height: 17px);
     }
     &_phone {
-        @include icon($url: "../img/icons/phone.svg", $width: 13px, $height: 13px);
+        @include icon($url: "../../img/icons/phone.svg", $width: 13px, $height: 13px);
     }
     &_letter {
-        @include icon($url: "../img/icons/email.svg", $width: 11px, $height: 8px);
+        @include icon($url: "../../img/icons/email.svg", $width: 11px, $height: 8px);
     }
 }
 
