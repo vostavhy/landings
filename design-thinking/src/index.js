@@ -1,6 +1,8 @@
 window.onload = function() {
     console.log('Hello world!');
 
+    
+
     // Tags
     addTagsClickHandler();
 }
