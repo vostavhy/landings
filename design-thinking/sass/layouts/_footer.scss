@@ -1,11 +1,35 @@
+.footer {
+
+}
+
 .footer__wrapper {
     display: flex;
-    padding: 56px 0 58px;
+    padding: 58px 46px 52px;
+
+    @include media-tablet {
+        padding: 47px 47px 26px;
+        flex-direction: column;
+    }
+
+    @include media-mobile {
+        padding: 31px 22px 28px;
+        flex-direction: column;
+    }
 }
 
 .footer-navigation {
     flex-grow: 1;
     padding-left: 151px;
+
+    @include media-tablet {
+        padding-left: 0;
+        margin-top: 34px;
+    }
+
+    @include media-mobile {
+        flex-direction: column;
+        margin-top: 27px;
+    }
 }
 
 .footer-navigation__title {
