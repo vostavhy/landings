@@ -449,7 +449,7 @@ template {
   display: none;
 }
 
-.navigation__link, .footer-navigation__links a, .link-button, .button {
+.navigation__link, .footer-navigation__links a, .logo-path, .link-button, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -620,16 +620,20 @@ h5 {
 }
 
 .logo {
-  display: inline-block;
-  width: 191px;
-  height: 32px;
-  background-image: url("../img/header/logo.jpg");
-  background-repeat: no-repeat;
+  display: flex;
+  height: 30px;
 }
-@media (max-width: 414px) {
-  .logo {
-    background-size: 160px auto;
-  }
+
+.logo-object {
+  width: 160px;
+  height: 30px;
+}
+
+.logo-svg {
+  cursor: pointer;
+}
+.logo-svg:hover .logo-path {
+  fill: #FF9900;
 }
 
 .ico {
@@ -847,7 +851,6 @@ h5 {
 
 .footer__wrapper {
   display: flex;
-  justify-content: space-between;
   padding: 56px 0 58px;
 }
 
@@ -860,8 +863,16 @@ h5 {
   margin: 0 0 15px;
   font-size: 2rem;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 600;
   line-height: 3rem;
+}
+@media (max-width: 414px) {
+  .footer-navigation__title {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+  }
 }
 
 .footer-navigation__links {

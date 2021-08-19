@@ -1,6 +1,5 @@
 .footer__wrapper {
     display: flex;
-    justify-content: space-between;
     padding: 56px 0 58px;
 }
 
@@ -11,7 +10,11 @@
 
 .footer-navigation__title {
     margin: 0 0 15px;
-    @include font($size: 2rem, $height: 3rem, $weight:normal);
+    @include font($size: 2rem, $height: 3rem, $weight:600);
+
+    @include media-mobile {
+        @include font($size: 1.8rem, $height: 3rem, $weight:600);
+    }
 }
 
 .footer-navigation__links {

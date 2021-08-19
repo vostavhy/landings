@@ -1,11 +1,22 @@
 .logo {
-    display: inline-block;
-    width: 191px;
-    height: 32px;
-    background-image: url("../img/header/logo.jpg");    
-    background-repeat: no-repeat;
-    
-    @include media-mobile {
-        background-size: 160px auto;    
+    display: flex;
+    height: 30px;
+}
+
+.logo-object {
+    width: 160px;
+    height: 30px;
+}
+
+.logo-path {
+    @extend %transition;
+}
+
+.logo-svg {
+    cursor: pointer;
+    &:hover {
+        .logo-path {
+            fill: $color-primary;
+        }
     }
 }
