@@ -857,19 +857,30 @@ h5 {
   flex-basis: 48%;
 }
 
+.footer {
+  padding: 58px 0 52px;
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 47px 0 26px;
+  }
+}
+@media (max-width: 414px) {
+  .footer {
+    padding: 31px 0 28px;
+  }
+}
+
 .footer__wrapper {
   display: flex;
-  padding: 58px 46px 52px;
 }
 @media (max-width: 768px) {
   .footer__wrapper {
-    padding: 47px 47px 26px;
     flex-direction: column;
   }
 }
 @media (max-width: 414px) {
   .footer__wrapper {
-    padding: 31px 22px 28px;
     flex-direction: column;
   }
 }

@@ -1,14 +1,23 @@
-.footer__wrapper {
-    display: flex;
-    padding: 58px 46px 52px;
+.footer {
+    padding: 58px 0 52px;
 
     @include media-tablet {
-        padding: 47px 47px 26px;
+        padding: 47px 0 26px;
+    }
+
+    @include media-mobile {
+        padding: 31px 0 28px;
+    }
+}
+
+.footer__wrapper {    
+    display: flex;
+
+    @include media-tablet {
         flex-direction: column;
     }
 
     @include media-mobile {
-        padding: 31px 22px 28px;
         flex-direction: column;
     }
 }
