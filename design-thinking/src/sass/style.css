@@ -649,37 +649,37 @@ h5 {
   display: inline-block;
 }
 .ico_play {
-  background-image: url("../../img/icons/play.svg");
+  background-image: url("../../src/img/icons/play.svg");
   width: 18px;
   height: 19px;
 }
 .ico_arrow {
-  background-image: url("../../img/icons/arrow.svg");
+  background-image: url("../../src/img/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
 .ico_heart {
-  background-image: url("../../img/icons/heart.svg");
+  background-image: url("../../src/img/icons/heart.svg");
   width: 17px;
   height: 15px;
 }
 .ico_snake {
-  background-image: url("../../img/icons/snake.svg");
+  background-image: url("../../src/img/icons/snake.svg");
   width: 18px;
   height: 14px;
 }
 .ico_watch {
-  background-image: url("../../img/icons/watch.svg");
+  background-image: url("../../src/img/icons/watch.svg");
   width: 15px;
   height: 17px;
 }
 .ico_phone {
-  background-image: url("../../img/icons/phone.svg");
+  background-image: url("../../src/img/icons/phone.svg");
   width: 13px;
   height: 13px;
 }
 .ico_letter {
-  background-image: url("../../img/icons/email.svg");
+  background-image: url("../../src/img/icons/email.svg");
   width: 11px;
   height: 8px;
 }
@@ -724,11 +724,11 @@ h5 {
 .tag {
   border-radius: 90px;
   padding: 0 14px;
+  cursor: pointer;
   font-size: 1.3rem;
   font-style: normal;
   font-weight: normal;
   line-height: 2.8rem;
-  cursor: pointer;
 }
 .tag_selected {
   background: #FF9900;
@@ -1172,7 +1172,7 @@ h5 {
 
 .tools__wrapper {
   padding-bottom: 90px;
-  background-image: url("../../img/tools/tools-bg.png");
+  background-image: url("../../src/img/tools/tools-bg.png");
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -1332,6 +1332,10 @@ h5 {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+.strategy_hidden {
+  display: none;
 }
 @media (max-width: 768px) {
   .strategy {

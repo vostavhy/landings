@@ -1,63 +1,87 @@
 .ico {
-    cursor: pointer;
-    display: inline-block;
-    &_play {
-        @include icon($url: "../../img/icons/play.svg", $width: 18px, $height: 19px);
-    }
+  cursor: pointer;
+  display: inline-block;
+  &_play {
+    @include icon(
+      $url: "../../src/img/icons/play.svg",
+      $width: 18px,
+      $height: 19px
+    );
+  }
 
-    &_arrow {
-        @include icon($url: "../../img/icons/arrow.svg", $width: 12px, $height: 17px);
-    }
+  &_arrow {
+    @include icon(
+      $url: "../../src/img/icons/arrow.svg",
+      $width: 12px,
+      $height: 17px
+    );
+  }
 
-    &_heart{
-        @include icon($url: "../../img/icons/heart.svg", $width: 17px, $height: 15px);
-    }
+  &_heart {
+    @include icon(
+      $url: "../../src/img/icons/heart.svg",
+      $width: 17px,
+      $height: 15px
+    );
+  }
 
-    &_snake {
-        @include icon($url: "../../img/icons/snake.svg", $width: 18px, $height: 14px);
-    }
+  &_snake {
+    @include icon(
+      $url: "../../src/img/icons/snake.svg",
+      $width: 18px,
+      $height: 14px
+    );
+  }
 
-    &_watch {
-        @include icon($url: "../../img/icons/watch.svg", $width: 15px, $height: 17px);
-    }
-    &_phone {
-        @include icon($url: "../../img/icons/phone.svg", $width: 13px, $height: 13px);
-    }
-    &_letter {
-        @include icon($url: "../../img/icons/email.svg", $width: 11px, $height: 8px);
-    }
+  &_watch {
+    @include icon(
+      $url: "../../src/img/icons/watch.svg",
+      $width: 15px,
+      $height: 17px
+    );
+  }
+  &_phone {
+    @include icon(
+      $url: "../../src/img/icons/phone.svg",
+      $width: 13px,
+      $height: 13px
+    );
+  }
+  &_letter {
+    @include icon(
+      $url: "../../src/img/icons/email.svg",
+      $width: 11px,
+      $height: 8px
+    );
+  }
 }
-
 
 .icon-square {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 19px;
-    cursor: pointer;
-    &_lilium {
-        background: $color-violet;
-    }
-    &_yellow {
-        background: $color-yellow;
-    }
-    &_red {
-        background: $color-red;
-    }
-    &_blue {
-        background: $color-blue;
-    }
-    &_light {
-        background: $color-light;
-    }
-    &_little {
-        width: 25px;
-        height: 25px;
-        border-radius: 50px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  cursor: pointer;
+  &_lilium {
+    background: $color-violet;
+  }
+  &_yellow {
+    background: $color-yellow;
+  }
+  &_red {
+    background: $color-red;
+  }
+  &_blue {
+    background: $color-blue;
+  }
+  &_light {
+    background: $color-light;
+  }
+  &_little {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+  }
 }
-
-
-
